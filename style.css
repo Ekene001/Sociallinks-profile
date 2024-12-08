@@ -74,3 +74,19 @@ p{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
 }
+
+
+@media only screen and (max-width:768px) {
+    .Main{
+        width: 80%;
+        margin: 50px;
+    }
+    p{
+        font: 14px/1.5 Inter;
+    }
+    h1{
+        font: 20px/1.5 Inter;  
+        font-weight: 700;
+    }
+
+}
